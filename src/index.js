@@ -1,10 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+<meta
+  name="description"
+  content="Family owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist."
+/>;
+<meta name="og:title" content="Little Lemon Restaurant" />;
+<meta
+  name="og:description"
+  content="Web Application fulfilling the online processing for the restaurant's reservation seating"
+/>;
+<meta name="og:image" content="/Logo.svg" />;
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
